@@ -74,7 +74,7 @@ class TrajUtils():
     def __init__(self):
         
         self.tformer = tf.TransformerROS(True, rospy.Duration(10.0))
-        self.wm = arWorldModel.ARWorldModel()
+        #self.wm = arWorldModel.ARWorldModel()
         self.gen_utils = generalUtils.GeneralUtils()
         
         
